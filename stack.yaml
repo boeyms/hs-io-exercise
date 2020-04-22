@@ -1,0 +1,6 @@
+# At time of writing, HIE only supports up to GHC 8.8.2, and
+# LTS-15.3 is the latest resolver with that.  This should
+# hopefully change soon.
+resolver: lts-15.3
+extra-deps:
+- sv-1.4@sha256:81b8e496985ac9d723fe7ebb28ee5a37164b93c1b6e78a068049d64a8ab94c4d,7143
